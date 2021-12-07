@@ -24,9 +24,6 @@ const Layout = () => {
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/dashboard">Dashboard</Link>
-          </li>
-          <li>
             <Link to="/nothing-here">Nothing Here</Link>
           </li>
         </ul>
@@ -46,7 +43,7 @@ const RoutersConfig = () => {
   return <HashRouter>
     <Suspense fallback={<div>loading...</div>}>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" /*element={<Layout />}*/>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
 

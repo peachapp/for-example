@@ -1,0 +1,15 @@
+.sidebar-control {
+  /* Header 64px */
+  height: 64px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #001529;
+}
+
+
+.sidebar-control-icon {
+  font-size: 24px;
+  color: #909399 !important;
+}
