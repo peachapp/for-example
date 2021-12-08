@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import { useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { Layout, Menu } from 'antd';
 import {
   HomeOutlined,
@@ -18,6 +18,7 @@ const menuData = [
 ];
 
 const Sidebar = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const collapsed = useSelector(state => state.collapsed);
 
@@ -25,6 +26,7 @@ const Sidebar = () => {
   const [selectedKeys, setSelectedKeys] = useState([currentPathKey])
 
   const onSelectedKeysChange = ({ key }) => {
+    navigate(`/${key}`);
     setSelectedKeys([key]);
   };
 

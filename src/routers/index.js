@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import { HashRouter, Routes, Route, Outlet, Link } from 'react-router-dom';
+import { HashRouter, Routes, Route, Outlet } from 'react-router-dom';
 //HashRouter最外层必须由它包裹
 //Routes包裹Route
 //Route配置路由规则
