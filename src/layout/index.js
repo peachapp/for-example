@@ -9,10 +9,9 @@ const { Content } = LayoutAnt;
 const Layout = (props) => {
   return <LayoutAnt className="layout-container">
     <Header />
-    <LayoutAnt className="site-layout">
+    <LayoutAnt>
       <Sidebar />
       <Content
-        className="site-layout-background"
         style={{
           padding: 16,
           minHeight: 280,
