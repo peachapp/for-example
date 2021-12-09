@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 const About = () => {
-  return <div>关于</div>
+  return <div className="page-container">关于</div>
 };
 
 export default React.memo(About);

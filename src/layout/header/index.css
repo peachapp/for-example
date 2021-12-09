@@ -1,3 +1,9 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-control {
   /* Header height: 64px */
   width: 64px;
@@ -6,7 +12,6 @@
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color: #001529;
 }
 
 .header-control-icon {
@@ -16,4 +21,14 @@
 
 .header-control:hover .header-control-icon {
   color: #fff !important;
+}
+
+.header-screen {
+  cursor: pointer;
+}
+
+.header-screen-icon {
+  margin: 20px;
+  font-size: 24px;
+  color: #909399 !important;
 }
