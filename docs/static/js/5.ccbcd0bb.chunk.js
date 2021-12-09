@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-egs"]=this["webpackJsonpreact-egs"]||[]).push([[5],{186:function(e,n,t){},189:function(e,n,t){"use strict";t.r(n);var c=t(0),s=t.n(c),a=(t(186),t(6)),i=function(){return Object(a.jsx)("div",{className:"page-container",children:"404"})};n.default=s.a.memo(i)}}]);
+//# sourceMappingURL=5.ccbcd0bb.chunk.js.map
